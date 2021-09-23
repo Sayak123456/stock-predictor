@@ -3,7 +3,6 @@ pandas
 scikit-learn
 matplotlib
 keras
-tensorflow
 streamlit
 pandas-datareader
 datetime
