@@ -38,7 +38,7 @@ try:
         y.append(X_train_array[i,0])
     X,y=np.array(X),np.array(y)
 
-    keras_model = tf.keras.models.load_model("LSTM_model (2).h5")
+    keras_model = load_model("LSTM_model (2).h5")
     #convert=tf.lite.TFLiteConverter.from_keras_model(keras_model)
 
     last_100days=X_train.tail(100)
